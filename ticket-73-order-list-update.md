@@ -1,12 +1,14 @@
-Procore Linux Jira Tickets  |  Prepared by: Romain Sinclair
 
-| Ticket #73 **Update Order List on Procore Products Website** | **SEE RELATED TICKET** |
+| **Field** | Value |
 | --- | --- |
-
-| **VM / Host** | dev-performance-rs1.procore.prod1 |
-| --- | --- |
+| **Ticket #** | 73 |
+| **Title** | Update Order List on Procore Products Website |
 | **Category** | Web Server Administration / Code Deployment |
-| **Status** | Details merged into adjacent ticket in original report |
+| **Prepared by** | Romain Sinclair |
+| **Environment** | Procore-Plus Lab (CentOS Stream / RHEL-based) |
+
+
+
 
 **Objective**
 
