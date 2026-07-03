@@ -1,12 +1,14 @@
-Procore Linux Jira Tickets  |  Prepared by: Romain Sinclair
 
-| Ticket #68 **Dev-Performance Web Server Not Responding** | **SEE RELATED TICKET** |
+| **Field** | Value |
 | --- | --- |
-
-| **VM / Host** | dev-performance-rs1.procore.prod1 |
-| --- | --- |
+| **Ticket #** | 68 |
+| **Title** | Dev-Performance Web Server Not Responding |
 | **Category** | Web Server Administration / Code Deployment |
-| **Status** | Details merged into adjacent ticket in original report |
+| **Prepared by** | Romain Sinclair |
+| **Environment** | Procore-Plus Lab (CentOS Stream / RHEL-based) |
+
+
+
 
 **Objective**
 
