@@ -1,7 +1,7 @@
 | **PROCORE-PLUS LAB** **Ticket 29: Configure Apache Web Content via GitLab ****&**** Rsync** *Apache · GitLab · rsync · SELinux · Web Deployment* |
 | --- |
 
-| **Ticket ID**   T-29 | **Reporter**   Michael Anthony Lopez |
+| **Ticket ID**   29 |
 | --- | --- |
 | **Project**   PROCORE-Plus Lab | **Assignee**   Romain |
 | **Type**   Task | **Date**   October 11, 2025 |
