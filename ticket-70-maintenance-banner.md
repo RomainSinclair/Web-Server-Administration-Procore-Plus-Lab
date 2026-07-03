@@ -1,14 +1,13 @@
-**Ticket #70 — Notify Website Under Maintenance**
 
-*Category: Web Server Administration / Code Deployment*
-
-| **Field** | Value |
+ **Field** | Value |
 | --- | --- |
 | **Ticket #** | 70 |
-| **Title** | Notify Website Under Maintenance |
+| **Title** | Notify Website Under Maintenance** |
 | **Category** | Web Server Administration / Code Deployment |
 | **Prepared by** | Romain Sinclair |
 | **Environment** | Procore-Plus Lab (CentOS Stream / RHEL-based) |
+
+
 
 # **Objective**
 
