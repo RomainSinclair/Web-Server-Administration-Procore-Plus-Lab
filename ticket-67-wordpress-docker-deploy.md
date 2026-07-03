@@ -1,10 +1,16 @@
-> **PROCORE-PLUS LAB** **Ticket T-67: Deploy WordPress via Docker Containers** *Docker · MariaDB · WordPress · Container Networking · Port Mapping*
 
-| **Ticket ID**   T-67 | **Reporter**   Procore Plus |
+| **Field** | Value |
 | --- | --- |
-| **Project**   PROCORE-Plus Lab | **Assignee**   Romain Sinclair |
-| **Priority**   Medium | **Server**   dev-app (dev-app-ma3) |
-| **Status**   Done ✓ | **Reference**   hub.docker.com/_/wordpress |
+| **Ticket #** | 67 |
+| **Title** | Deploy WordPress via Docker Containers** *Docker · MariaDB · WordPress · Container Networking · Port Mapping* |
+| **Category** | Web Server Administration |
+| **Prepared by** | Romain Sinclair |
+| **Environment** | Procore-Plus Lab (CentOS Stream / RHEL-based) |
+
+
+
+
+
 
 ## 1. Objective
 
