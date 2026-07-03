@@ -1,11 +1,13 @@
-> **PROCORE-PLUS LAB** **Ticket T-69: Dev Web Server Not Responding — Apache httpd Fix** *Incident Response · httpd · Missing Config · Firewall · Port 8080*
 
-| **Ticket ID**   T-69 (TL-68) | **Reporter**   Procore Plus |
+ **Field** | Value |
 | --- | --- |
-| **Project**   PROCORE-Plus Lab | **Assignee**   Romain Sinclair |
-| **Type**   Incident / Task | **Date**   November 2025 |
-| **Priority**   High | **Server**   dev-performance-tl.procore.prod1 |
-| **Status**   Done ✓ | **Root Cause**   httpd.conf missing after corrupt install |
+| **Ticket #** | 69 |
+| **Title** | Dev Web Server Not Responding — Apache httpd Fix** *Incident Response · httpd · Missing Config · Firewall · Port 8080* |
+| **Category** | Web Server Administration / Code Deployment |
+| **Prepared by** | Romain Sinclair |
+| **Environment** | Procore-Plus Lab (CentOS Stream / RHEL-based) |
+
+
 
 ## 1. Objective
 
