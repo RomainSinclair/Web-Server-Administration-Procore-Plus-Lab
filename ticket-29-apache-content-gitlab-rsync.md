@@ -1,18 +1,20 @@
-| **PROCORE-PLUS LAB** **Ticket 29: Configure Apache Web Content via GitLab ****&**** Rsync** *Apache · GitLab · rsync · SELinux · Web Deployment* |
-| --- |
 
-| **Ticket ID**   29 |
+| **Field** | Value |
 | --- | --- |
-| **Project**   PROCORE-Plus Lab | **Assignee**   Romain |
-| **Type**   Task | **Date**   October 11, 2025 |
-| **Priority**   Medium | **Server**   stage-web (stage-web-ma3) |
-| **Status**   Done ✓ | **Repository**   git@gitlab.com:procoreplusmd/ariclaw.git |
+| **Ticket #** | 29 |
+| **Title** | Configure Apache Web Content via GitLab ****&**** Rsync** *Apache · GitLab · rsync · SELinux · Web Deployment* |
+| **Category** | Web Server Administration / Apache Management |
+| **Prepared by** | Romain Sinclair |
+| **Environment** | Procore-Plus Lab (CentOS Stream / RHEL-based) |
+
+
+
 
 **1. ****Objective**
 
 Configure the Ariclaw web server content on the stage-web server by pulling the web application code from GitLab and deploying it cleanly to Apache's document root using rsync. The deployed page must be externally accessible.
 
-| **📋  Task Requirements** VM: stage-web GitLab repository: git@gitlab.com:procoreplusmd/ariclaw.git Web content deployed to /var/www/html/ SSH keys must be configured for GitLab access Provide working webpage URL |
+| **  Task Requirements** VM: stage-web GitLab repository: git@gitlab.com:procoreplusmd/ariclaw.git Web content deployed to /var/www/html/ SSH keys must be configured for GitLab access Provide working webpage URL |
 | --- |
 
 **2. ****Step-by-Step Execution**
@@ -67,7 +69,7 @@ Configure the Ariclaw web server content on the stage-web server by pulling the 
 | 6 | Apache reloaded successfully | systemctl reload httpd — no errors |  Done |
 | 7 | HTTP 200 confirmed via curl | curl -I 127.0.0.1: HTTP/1.1 200 OK |  Done |
 
-| **Ticket 29 · Configure Apache Web Content via GitLab ****&**** Rsync · Procore-Plus Lab***  │  Assignee: HeRO · PROCORE Infrastructure Team* |
+| **Ticket 29 · Configure Apache Web Content via GitLab ****&**** Rsync · Procore-Plus Lab***  │  Assignee: Romain Sinclair · PROCORE Infrastructure Team* |
 | --- |
 
 PROCORE Infrastructure Team  |  
