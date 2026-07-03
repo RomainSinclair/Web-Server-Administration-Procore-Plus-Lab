@@ -1,14 +1,13 @@
-Procore Linux Jira Tickets  |  Prepared by: Romain Sinclair
 
-| Ticket #71 **Modify User Account Profile Picture** | **COMPLETED** |
+ **Field** | Value |
 | --- | --- |
-
-| **VM / Host** | dev-performance-rs1.procore.prod1 |
-| --- | --- |
-| **Live Image Path** | /var/www/html/procore-products/procore/img/ |
-| **Profile Image** | jessica.jpg (resized from notification-dog.jpg) |
-| **References Updated** | notification-01/02/03 HTML files |
+| **Ticket #** | 71 |
+| **Title** | Modify User Account Profile Picture |
 | **Category** | Web Server Administration / Code Deployment |
+| **Prepared by** | Romain Sinclair |
+| **Environment** | Procore-Plus Lab (CentOS Stream / RHEL-based) |
+
+
 
 **Objective**
 
@@ -69,8 +68,5 @@ grep "jessica" /var/www/html/procore-products/procore/notification-01.html
 sudo systemctl status httpd
 # Browse to the Procore Products site and verify profile picture updated
 
-**Screenshots**
-
-*dev-performance: convert image to jessica.jpg, ls img/, sed update to notification HTML files, systemctl restart httpd*
 
 Procore-Plus Lab Environment  |  CentOS Stream / RHEL  |  Page
