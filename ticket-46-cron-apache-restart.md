@@ -1,10 +1,15 @@
-> **PROCORE-PLUS LAB** **Ticket T-46: Cron Job: Restart Apache Every 2 Days at 11 AM** *Cron · crontab · httpd · systemctl · Log Verification*
 
-| **Ticket ID**   46 | **Reporter**   Procore Plus |
+| **Field** | Value |
 | --- | --- |
-| **Project**   PROCORE-Plus Lab | **Assignee**   Romain Sinclair |
-| **Priority**   Medium | **Server**   stage-web (stage-web-ma3) |
-| **Status**   Done ✓ | **Service**   httpd (Apache HTTP Server) |
+| **Ticket #** | 46 |
+| **Title** | Cron Job: Restart Apache Every 2 Days at 11 AM** *Cron · crontab · httpd · systemctl · Log Verification* |
+| **Category** | Web Server Administration / Apache Log Management |
+| **Prepared by** | Romain Sinclair |
+| **Environment** | Procore-Plus Lab (CentOS Stream / RHEL-based) |
+
+
+
+
 
 ## 1. Objective
 
