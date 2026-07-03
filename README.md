@@ -12,7 +12,7 @@ Apache httpd, SELinux, rsync, GitLab, Docker + MariaDB containers, logrotate, cr
 
 | Ticket | Title | Documentation |
 | --- | --- | --- |
-| T-29 | Configure Apache Web Content via GitLab & Rsync | [ticket-t29-apache-content-gitlab-rsync.md](tickets/ticket-t29-apache-content-gitlab-rsync.md) |
+| #29 | Configure Apache Web Content via GitLab & Rsync | [ticket-29-apache-content-gitlab-rsync.md](tickets/ticket-29-apache-content-gitlab-rsync.md) |
 | #46 | Cron Job: Restart Apache Every 2 Days at 11 AM | [ticket-46-cron-apache-restart.md](tickets/ticket-46-cron-apache-restart.md) |
 | #59 | Rotate HTTPD Logs | [ticket-59-httpd-log-rotation.md](tickets/ticket-59-httpd-log-rotation.md) |
 | #67 | Deploy WordPress via Docker Containers | [ticket-67-wordpress-docker-deploy.md](tickets/ticket-67-wordpress-docker-deploy.md) |
@@ -25,4 +25,4 @@ Apache httpd, SELinux, rsync, GitLab, Docker + MariaDB containers, logrotate, cr
 | #74 | Remove Maintenance Banner | [ticket-74-remove-maintenance-banner.md](tickets/ticket-74-remove-maintenance-banner.md) |
 
 ## About
-Each ticket document includes the objective, environment details, step-by-step resolution, commands used, and verification/outcome. These reflect real hands-on system administration work completed in a lab modeled on production operations.
+Each ticket document includes the objective, environment details, step-by-step resolution, commands used, and verification/outcome.
