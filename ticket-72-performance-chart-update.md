@@ -92,12 +92,5 @@ grep -n "Cache Memory" /var/www/html/procore-products/procore/js/tooplate-script
 
 - Browser caching can mask a successful deployment — use hard refresh (Ctrl+Shift+R) or cache-busting query strings
 
-# **Screenshots**
-
-***Figure 1: dev-performance — terminal showing tooplate-scripts.js replacement and Cache Memory grep confirmation***
-
-***Figure 2: Procore Products website — Performance chart with updated Cache Memory pink bar***
-
-***Figure 3: Apache restart and SELinux context restoration completed***
 
 Ticket #72 | Update Performance Chart on Procore Products Website | Procore Linux Jira  |  Page  of
