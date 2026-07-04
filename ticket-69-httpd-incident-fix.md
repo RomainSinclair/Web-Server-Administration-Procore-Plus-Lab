@@ -22,11 +22,11 @@ End users are reporting connectivity issues with the internal dev-performance sy
 Before checking the web service, confirm basic network connectivity between servers.
 
 ```bash
-# Ping dev-performance from dev-app and stage-web ping -c 4 dev-performance-tl.procore.prod1
+# Ping dev-performance from dev-app and stage-web ping -c 4 dev-performance-rs1.procore.prod1
 # Result: 0% packet loss — network layer is UP
-# Test HTTP on default port (80) curl -v http://dev-performance-tl.procore.prod1
+# Test HTTP on default port (80) curl -v http://dev-performance-rs1.procore.prod1
 # Result: Connected ✓
-# Test HTTP on port 8080 curl -v http://dev-performance-tl.procore.prod1:8080
+# Test HTTP on port 8080 curl -v http://dev-performance-rs1.procore.prod1:8080
 # Result: Connection REFUSED ✗ — port 8080 not responding
 ```
 
@@ -98,9 +98,9 @@ sudo systemctl status httpd --no-pager -l
 ### Step 6 — Confirm Service Restored
 
 ```bash
-# Test port 8080 is now accessible curl -v http://dev-performance-tl.procore.prod1:8080
+# Test port 8080 is now accessible curl -v http://dev-performance-rs1.procore.prod1:8080
 # Expected: HTTP/1.1 200 OK
-# Verify from dev-app and stage-web as well curl http://dev-performance-tl.procore.prod1:8080
+# Verify from dev-app and stage-web as well curl http://dev-performance-rs1.procore.prod1:8080
 ```
 
 > **  Screenshot 5: curl showing HTTP 200 OK response on port 8080 from dev-performance**
