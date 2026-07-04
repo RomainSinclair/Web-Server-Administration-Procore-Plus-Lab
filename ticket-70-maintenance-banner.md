@@ -81,12 +81,5 @@ curl -I http://localhost/procore-products/procore/
 
 - Use trailing slash in Apache paths to ensure relative CSS/JS paths resolve correctly
 
-# **Screenshots**
-
-***Figure 1: Procore Products website — maintenance period showing PHP works message at 10.1.30.92***
-
-***Figure 2: CRM Admin Login page at 10.1.30.92 confirming the web server is responsive***
-
-***Figure 3: dev-performance — terminal showing deployment commands and httpd reload***
 
 Ticket #70 | Notify Website Under Maintenance | Procore Linux Jira  |  Page  of
